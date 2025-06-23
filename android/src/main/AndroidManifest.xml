@@ -13,7 +13,7 @@
 
         </service>
         <provider
-            android:name=".RUpgradeFileProvider"
+            android:name="com.example.r_upgrade.RUpgradeFileProvider"
             android:authorities="${applicationId}.fileProvider"
             android:exported="false"
             android:grantUriPermissions="true">
